@@ -1,0 +1,42 @@
+{
+  "name": "instabytes-portfolio",
+  "version": "1.0.0",
+  "description": "Site de portfolio para exibir imagens e publicações do InstaBytes.",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">= 16.0.0",
+    "npm": ">= 7.0.0"
+  },
+  "homepage": "https://github.com/DEV-Dondon/seu-repositorio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DEV-Dondon/seu-repositorio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DEV-Dondon/seu-repositorio/issues"
+  },
+  "keywords": [
+    "portfolio",
+    "frontend",
+    "parcel",
+    "javascript"
+  ],
+  "author": {
+    "name": "Lucivan",
+    "email": "lucivan@example.com",
+    "url": "https://lucivan.dev"
+  },
+  "contributors": [],
+  "scripts": {
+    "dev": "npx parcel --port 8000 index.html",
+    "build": "parcel build index.html",
+    "start": "node index.js",
+    "test": "echo 'Nenhum teste configurado ainda'"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.2"
+  }
+}
